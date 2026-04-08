@@ -44,4 +44,4 @@ All vulnerabilities were responsibly disclosed to the respective maintainers. Th
 
 ## Contact
 
-For questions regarding these vulnerabilities, please contact the corresponding author at `jin2019@sjtu.edu.cn`.
+For questions regarding these vulnerabilities, please contact  `jin2019@sjtu.edu.cn`.
