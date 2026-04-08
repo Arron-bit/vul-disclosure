@@ -6,23 +6,20 @@ All vulnerabilities were responsibly disclosed to the respective maintainers. Th
 
 ## Discovered Vulnerabilities
 
-| # | Application | Reference | Endpoint | Type | Impact |
-|---|-------------|-----------|----------|------|--------|
-| 1 | Apache Solr | Internal Issue | `POST /cluster/plugin` | UFU | Remote Code Execution |
-| 2 | OpenMRS | [Commit 6b392f6](https://github.com/openmrs/openmrs-core/commit/6b392f6) | `POST /openmrs/ws/rest/v1/module` | PT | Remote Code Execution |
-| 3 | OpenMRS | [Commit 52fd8bb](https://github.com/openmrs/openmrs-core/commit/52fd8bb) | `GET /openmrs/moduleResources/{moduleid}` | PT | Arbitrary File Read |
-| 4 | Shopizer | Issue #1091 | `POST /api/v1/private/content/images/add` | PT | Remote Code Execution |
-| 5 | Shopizer | Issue #1092 | `POST /api/v1/private/content/images/rename` | PT | Remote Code Execution |
-| 6 | Shopizer | Issue #1093 | `POST /api/v1/private/content` | XSS | Credential Theft / Script Execution |
-| 7 | Halo | Internal Issue | `POST /plugins/{name}/upgrade-from-uri` | SSRF | Internal Network Exposure |
-| 8 | Halo | Internal Issue | `POST /plugins/-/install-from-uri` | SSRF | Internal Network Exposure |
-| 9 | Halo | Internal Issue | `POST /themes/{name}/upgrade-from-uri` | SSRF | Internal Network Exposure |
-| 10 | Halo | Internal Issue | `POST /themes/-/install-from-uri` | SSRF | Internal Network Exposure |
-| 11 | SpringBlade | Issue #36 | `POST /ureport/datasource/testConnection` | SSRF | Arbitrary File Read |
-| 12 | SpringBlade | Issue #37 | `POST /ureport/designer/saveReportFile` | XXE | Arbitrary File Read |
-| 13 | SpringBlade | Issue #38 | `POST /api/blade-desk/notice/submit` | XSS | Credential Theft / Script Execution |
-| 14 | JeeSite | Issue #528 | `POST /a/msg/msgInner/save` | XSS | Credential Theft / Script Execution |
-| 15 | JeeSite | Issue #529 | `POST /a/file/upload` | PT | Remote Code Execution |
+| # | Application | Type | Status | CVE | Reference |
+|---|------------|------|--------|-----|-----------|
+| 1 | Apache Solr | XXE | Submitted | Pending | Internal Issue |
+| 2 | OpenMRS | PT | Patched | Pending | [Commit 6b392f6](https://github.com/openmrs/openmrs-core/commit/6b392f6) |
+| 3 | OpenMRS | PT | Patched | Pending | [Commit 52fd8bb](https://github.com/openmrs/openmrs-core/commit/52fd8bb) |
+| 4 | Shopizer | PT | Submitted | Pending | [Issue #1091](https://github.com/shopizer-ecommerce/shopizer/issues/1091) |
+| 5 | Shopizer | PT | Submitted | Pending | [Issue #1092](https://github.com/shopizer-ecommerce/shopizer/issues/1092) |
+| 6 | Shopizer | XSS | Submitted | Pending | [Issue #1093](https://github.com/shopizer-ecommerce/shopizer/issues/1093) |
+| 7-10 | Halo | SSRF | Submitted | Pending | Internal Issue |
+| 11 | SpringBlade | SSRF | Submitted | Pending | [Issue #36](https://github.com/chillzhuang/SpringBlade/issues/36) |
+| 12 | SpringBlade | XXE | Submitted | Pending | [Issue #37](https://github.com/chillzhuang/SpringBlade/issues/37) |
+| 13 | SpringBlade | XSS | Submitted | Pending | [Issue #38](https://github.com/chillzhuang/SpringBlade/issues/38) |
+| 14 | JeeSite | XSS | Submitted | Pending | [Issue #528](https://github.com/thinkgem/jeesite/issues/528) |
+| 15 | JeeSite | PT | Submitted | Pending | [Issue #529](https://github.com/thinkgem/jeesite/issues/529) |
 
 ## Vulnerability Types
 
@@ -47,4 +44,4 @@ All vulnerabilities were responsibly disclosed to the respective maintainers. Th
 
 ## Contact
 
-For questions regarding these vulnerabilities, please contact the corresponding author at `houqinsheng@sjtu.edu.cn`.
+For questions regarding these vulnerabilities, please contact the corresponding author at `jin2019@sjtu.edu.cn`.
