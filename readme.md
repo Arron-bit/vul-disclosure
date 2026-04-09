@@ -9,8 +9,8 @@ All vulnerabilities were responsibly disclosed to the respective maintainers. Th
 | # | Application | Type | Status | CVE | Reference |
 |---|------------|------|--------|-----|-----------|
 | 1 | Apache Solr | XXE | Submitted | Pending | Internal Issue |
-| 2 | OpenMRS | PT | Patched | Pending | [Commit 6b392f6](https://github.com/openmrs/openmrs-core/commit/6b392f6) |
-| 3 | OpenMRS | PT | Patched | Pending | [Commit 52fd8bb](https://github.com/openmrs/openmrs-core/commit/52fd8bb) |
+| 2 | OpenMRS | PT | Patched | CVE-2026-40076 | [Commit 6b392f6](https://github.com/openmrs/openmrs-core/commit/6b392f6) |
+| 3 | OpenMRS | PT | Patched | CVE-2026-40075 | [Commit 52fd8bb](https://github.com/openmrs/openmrs-core/commit/52fd8bb) |
 | 4 | Shopizer | PT | Submitted | Pending | [Issue #1091](https://github.com/shopizer-ecommerce/shopizer/issues/1091) |
 | 5 | Shopizer | PT | Submitted | Pending | [Issue #1092](https://github.com/shopizer-ecommerce/shopizer/issues/1092) |
 | 6 | Shopizer | XSS | Submitted | Pending | [Issue #1093](https://github.com/shopizer-ecommerce/shopizer/issues/1093) |
@@ -34,7 +34,7 @@ All vulnerabilities were responsibly disclosed to the respective maintainers. Th
 | Application | Status | CVE ID | Patch |
 |-------------|--------|--------|-------|
 | Apache Solr | Confirmed, fix in progress | Pending | — |
-| OpenMRS | Patched | Pending | [6b392f6](https://github.com/openmrs/openmrs-core/commit/6b392f6), [52fd8bb](https://github.com/openmrs/openmrs-core/commit/52fd8bb) |
+| OpenMRS | Patched | CVE-2026-40075 CVE-2026-40076 | [6b392f6](https://github.com/openmrs/openmrs-core/commit/6b392f6), [52fd8bb](https://github.com/openmrs/openmrs-core/commit/52fd8bb) |
 | Shopizer | Disclosed | Pending | — |
 | Halo | Disclosed | Pending | — |
 | SpringBlade | Disclosed | Pending | — |
