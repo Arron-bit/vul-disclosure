@@ -40,7 +40,7 @@ All vulnerabilities were responsibly disclosed to the respective maintainers. Th
 | SpringBlade | Disclosed | Pending | — |
 | JeeSite | Disclosed | Pending | [6d07699](https://github.com/thinkgem/jeesite/commit/6d07699071d71829c585aa19f065e79f58264fb6) |
 
-> **Last updated:** 2026-04-08
+> **Last updated:** 2026-04-16
 
 ## Contact
 
