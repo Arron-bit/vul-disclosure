@@ -18,7 +18,7 @@ All vulnerabilities were responsibly disclosed to the respective maintainers. Th
 | 11 | SpringBlade | SSRF | Submitted | Pending | [Issue #36](https://github.com/chillzhuang/SpringBlade/issues/36) |
 | 12 | SpringBlade | XXE | Submitted | Pending | [Issue #37](https://github.com/chillzhuang/SpringBlade/issues/37) |
 | 13 | SpringBlade | XSS | Submitted | Pending | [Issue #38](https://github.com/chillzhuang/SpringBlade/issues/38) |
-| 14 | JeeSite | XSS | Submitted | Pending | [Issue #528](https://github.com/thinkgem/jeesite/issues/528) |
+| 14 | JeeSite | XSS | Submitted | Pending | [Commit 6d07699](https://github.com/thinkgem/jeesite/commit/6d07699071d71829c585aa19f065e79f58264fb6) |
 | 15 | JeeSite | PT | Submitted | Pending | [Issue #529](https://github.com/thinkgem/jeesite/issues/529) |
 
 ## Vulnerability Types
@@ -38,7 +38,7 @@ All vulnerabilities were responsibly disclosed to the respective maintainers. Th
 | Shopizer | Disclosed | Pending | — |
 | Halo | Disclosed | Pending | — |
 | SpringBlade | Disclosed | Pending | — |
-| JeeSite | Disclosed | Pending | — |
+| JeeSite | Disclosed | Pending | [6d07699](https://github.com/thinkgem/jeesite/commit/6d07699071d71829c585aa19f065e79f58264fb6) |
 
 > **Last updated:** 2026-04-08
 
