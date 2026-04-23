@@ -18,8 +18,8 @@ All vulnerabilities were responsibly disclosed to the respective maintainers. Th
 | 11 | SpringBlade | SSRF | Submitted | CVE-2026-36764 | [Issue #36](https://github.com/chillzhuang/SpringBlade/issues/36) |
 | 12 | SpringBlade | XXE | Submitted | CVE-2026-36765 | [Issue #37](https://github.com/chillzhuang/SpringBlade/issues/37) |
 | 13 | SpringBlade | XSS | Submitted | CVE-2026-36763 | [Issue #38](https://github.com/chillzhuang/SpringBlade/issues/38) |
-| 14 | JeeSite | XSS | Submitted | CVE-2026-36761 | [Commit 6d07699](https://github.com/thinkgem/jeesite/commit/6d07699071d71829c585aa19f065e79f58264fb6) |
-| 15 | JeeSite | PT | Submitted | CVE-2026-36762 | [Issue #529](https://github.com/thinkgem/jeesite/issues/529) |
+| 14 | JeeSite | XSS | Patched | CVE-2026-36761 | [Commit 6d07699](https://github.com/thinkgem/jeesite/commit/6d07699071d71829c585aa19f065e79f58264fb6) |
+| 15 | JeeSite | PT | Patched | CVE-2026-36762 | Internal Jar Patched |
 
 ## Vulnerability Types
 
@@ -33,12 +33,12 @@ All vulnerabilities were responsibly disclosed to the respective maintainers. Th
 
 | Application | Status | CVE ID | Patch |
 |-------------|--------|--------|-------|
-| Apache Solr | Confirmed, fix in progress | Pending | — |
+| Apache Solr | Disclosed | Pending | — |
 | OpenMRS | Patched | CVE-2026-40075 CVE-2026-40076 | [6b392f6](https://github.com/openmrs/openmrs-core/commit/6b392f6), [52fd8bb](https://github.com/openmrs/openmrs-core/commit/52fd8bb) |
 | Shopizer | Disclosed | CVE-2026-36766 CVE-2026-36767 CVE-2026-36768 | — |
 | Halo | Disclosed | CVE-2026-36756 CVE-2026-36757 CVE-2026-36758 CVE-2026-36759 | — |
 | SpringBlade | Disclosed | CVE-2026-36763 CVE-2026-36764 CVE-2026-36765 | — |
-| JeeSite | Disclosed | CVE-2026-36761 CVE-2026-36762 | [6d07699](https://github.com/thinkgem/jeesite/commit/6d07699071d71829c585aa19f065e79f58264fb6) |
+| JeeSite | Patched | CVE-2026-36761 CVE-2026-36762 | [6d07699](https://github.com/thinkgem/jeesite/commit/6d07699071d71829c585aa19f065e79f58264fb6) |
 
 > **Last updated:** 2026-04-22
 
