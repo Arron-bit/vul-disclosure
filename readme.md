@@ -1,6 +1,6 @@
 # Prism Vulnerability Disclosure
 
-This repository tracks the disclosure status of 15 previously unknown security vulnerabilities discovered by **Prism**, an LLM-assisted gray-box fuzzing framework for web applications.
+This repository tracks the disclosure status of 15 previously unknown security vulnerabilities discovered by our gray-box fuzzing framework for web applications.
 
 All vulnerabilities were responsibly disclosed to the respective maintainers. This page will be continuously updated with CVE identifiers and patch links as they become available.
 
